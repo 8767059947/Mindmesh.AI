@@ -32,12 +32,12 @@ function Navbar() {
         <UserButton />
       ) : (
         <button
-          onClick={openSignIn}
-          className="flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-6 py-2 sm:px-10 sm:py-2.5"
+  onClick={openSignIn}
+  className="flex items-center gap-1 rounded-full text-xs sm:text-sm cursor-pointer bg-primary text-white px-4 py-1.5 sm:px-10 sm:py-2.5"
+>
+  Get started <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
+</button>
 
-        >
-          Get started <ArrowRight className="w-4 h-4" />
-        </button>
       )}
     </div>
   );
